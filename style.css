@@ -1,22 +1,45 @@
-*{
-	font-family: Garamond;
-}
 
 .header {
 	float: right;
 	margin-top:10px;
-
-
 }
 
 .bouton {
 	margin-left:15px;
 	text-decoration: none;
 }
+
 #connexion {
 	border-radius: 1px solid #4285f4;
 	background: #4285f4;
 	color: white;
 	padding:10px;
 	margin-right: 10px;
+}
+
+.Logo {
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+	font-size: 100px;
+	float: initial;
+
+}
+
+.bleu {
+	color:#4285f4;
+}
+
+.rouge {
+	color:#ea4335;
+
+}
+
+.jaune {
+	color:#fbbc05;
+
+}
+
+.vert {
+	color:#34a853;
 }
