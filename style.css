@@ -1,10 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 .header {
 	float: right;
-	margin-top:10px;
+	margin-top:20px;
 }
 
-.bouton {
+.menu {
 	margin-left:15px;
 	text-decoration: none;
 }
@@ -17,13 +28,20 @@
 	margin-right: 10px;
 }
 
-.Logo {
-	margin: 0 auto;
-	width: 600px;
-	text-align: center;
-	font-size: 100px;
-	float: initial;
+.content {
+	margin:auto;
+	width: 100%;
+	position: absolute;
+	top: 30%;
+}
 
+.Logo {
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	font-size: 90px;
+	letter-spacing: 0.02em;
+	position:relative;
 }
 
 .bleu {
@@ -32,7 +50,7 @@
 
 .rouge {
 	color:#ea4335;
-
+	
 }
 
 .jaune {
@@ -42,4 +60,57 @@
 
 .vert {
 	color:#34a853;
+}
+
+.recherche {
+	margin: auto;
+	height: 35px;
+	width: 500px;
+	text-align: center;
+	background: #FFF;
+	border: 1px solid grey;
+  	box-shadow: 3px 3px 8px #aaa; 
+  	text-align: center;
+  	margin-top: 10px;
+
+}
+
+.boutons_recherche {
+	margin: auto;
+	padding:27px;
+	text-align: center;
+}
+.bouton {
+	border: 1px solid #222222;
+	background: #F6F6F6;
+	padding:10px;
+	margin: auto;
+	text-decoration: none;
+	position:relative;
+}
+
+.footer {
+position: absolute; 
+bottom: 0;
+height: 30px;
+background: #F6F6F6;
+width: 100%;
+border-top: : 1px solid #272727;
+margin-bottom: 10px;
+padding-top: 15px;
+}
+
+.left {
+	float: left;
+	margin-left:10px;
+}
+
+.right {
+	float: right;
+	margin-right:10px;
+}
+
+.element_footer {
+	margin-left:15px;
+	text-decoration: none;
 }
