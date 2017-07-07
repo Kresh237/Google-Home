@@ -18,6 +18,9 @@ body {
 .menu {
 	margin-left:15px;
 	text-decoration: none;
+	color: rgb(117, 117, 117);
+	font-family: Arial;
+	font-size:13px;
 }
 
 #connexion {
@@ -66,12 +69,14 @@ body {
 	margin: auto;
 	height: 35px;
 	width: 500px;
-	text-align: center;
 	background: #FFF;
 	border: 1px solid grey;
   	box-shadow: 3px 3px 8px #aaa; 
-  	text-align: center;
   	margin-top: 10px;
+  	font: Arial;
+  	font-size: 16px;
+  	color: grey;
+  	padding-left: 5px;
 
 }
 
@@ -80,23 +85,37 @@ body {
 	padding:27px;
 	text-align: center;
 }
+
 .bouton {
 	border: 1px solid #222222;
-	background: #F6F6F6;
+	background: rgb(243,243,243);
 	padding:10px;
 	margin: auto;
 	text-decoration: none;
 	position:relative;
+	color: rgb(117, 117, 117);
+	font-family: Arial;
+	font-size:13px;
 }
+
+.bouton:hover {
+    border: 1px solid black;
+	background: rgb(243,243,243);
+	padding:10px;
+	margin: auto;
+	text-decoration: none;
+	position:relative;
+	color: black;
+}
+
 
 .footer {
 position: absolute; 
 bottom: 0;
 height: 30px;
-background: #F6F6F6;
+background: rgb(234,234,234);
 width: 100%;
 border-top: : 1px solid #272727;
-margin-bottom: 10px;
 padding-top: 15px;
 }
 
@@ -113,4 +132,7 @@ padding-top: 15px;
 .element_footer {
 	margin-left:15px;
 	text-decoration: none;
+	color: rgb(117, 117, 117);
+    font-family: Arial;
+    font-size:13px;
 }
