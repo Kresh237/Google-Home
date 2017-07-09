@@ -36,6 +36,8 @@ body {
 	width: 100%;
 	position: absolute;
 	top: 30%;
+	display:none;
+
 }
 
 .Logo {
